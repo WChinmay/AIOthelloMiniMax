@@ -42,6 +42,9 @@ public:
      */
     MinimaxPlayer* clone();
 
+	int utility(OthelloBoard *b);
+	std::vector<OthelloBoard*> succ(OthelloBoard *b, char p_symb);
+
 private:
 
 };

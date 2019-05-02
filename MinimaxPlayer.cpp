@@ -59,17 +59,24 @@ vector<OthelloBoard*> MinimaxPlayer::succ(OthelloBoard *b, char p_symb)
 
 	vector<OthelloBoard*> succSet;		// This will hold all the successors
 	
-	for (r = 0; r < numRows; r++)
+	for (c = 0; r < numCols; c++)
 	{
-		for (c = 0; c < numCols; c++)
+		for (r = 0; c < numRows; r++)
 		{
-			// Using pre-built fucntion to check if it is a valid move
-			if (b->is_legal_move(r, c, p_symb))
+			// Using pre-built function to check if it is a valid move
+			if (b->is_legal_move(c, r, p_symb))
 			{
 				// Create this tested board and add to succSet as one of the possible
 				// successors
-				// How do I create such an OthelloBoard? Look at OthelloBoard.cpp/.h
+				// How do I create such an OthelloBoard? 
+				// Create a new board such that the state has been copied using the 
+				// copy constructor
+				OthelloBoard* newBoard = new OthelloBoard(*(b));
+				// Play move for the specific OthelloBoard
+				newBoard->play_move(c, r, p_symb);
+				succSet.push_back(newBoard);
 			}
 		}
 	}
+	return succSet;
 }
