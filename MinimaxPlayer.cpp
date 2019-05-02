@@ -49,3 +49,27 @@ int MinimaxPlayer::utility(OthelloBoard *b)
 	return p1_score - p2_score;		// returns the utility of the leaf node
 									// based on difference in scores
 }
+
+vector<OthelloBoard*> MinimaxPlayer::succ(OthelloBoard *b, char p_symb)
+{
+	// TODO: numRows and numCols not constant but take values of the current board
+	int numRows = 4;		// Number of rows for looping
+	int numCols = 4;		// Number of columns for looping
+	int r, c;				// Loop variables
+
+	vector<OthelloBoard*> succSet;		// This will hold all the successors
+	
+	for (r = 0; r < numRows; r++)
+	{
+		for (c = 0; c < numCols; c++)
+		{
+			// Using pre-built fucntion to check if it is a valid move
+			if (b->is_legal_move(r, c, p_symb))
+			{
+				// Create this tested board and add to succSet as one of the possible
+				// successors
+				// How do I create such an OthelloBoard? Look at OthelloBoard.cpp/.h
+			}
+		}
+	}
+}
