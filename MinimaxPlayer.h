@@ -11,6 +11,7 @@
 #include "OthelloBoard.h"
 #include "Player.h"
 #include <vector>
+#include <limits>
 
 /**
  * This class represents an AI player that uses the Minimax algorithm to play the game
@@ -44,6 +45,8 @@ public:
 
 	OthelloBoard* utility(OthelloBoard *b);
 	std::vector<OthelloBoard*> succ(OthelloBoard *b, char p_symb);
+	OthelloBoard* maxValue(OthelloBoard *b, int &row, int &col, char p_symb);
+	OthelloBoard* minValue(OthelloBoard *b, int &row, int &col, char p_symb);
 
 private:
 
