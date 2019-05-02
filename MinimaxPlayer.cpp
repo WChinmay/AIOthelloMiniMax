@@ -40,14 +40,14 @@ MinimaxPlayer* MinimaxPlayer::clone() {
 	return result;
 }
 
-int MinimaxPlayer::utility(OthelloBoard *b)
+OthelloBoard* MinimaxPlayer::utility(OthelloBoard *b)
 {
 	char p1_symb = b->get_p1_symbol();
 	char p2_symb = b->get_p2_symbol();
 	int p1_score = b->count_score(p1_symb);
 	int p2_score = b->count_score(p2_symb);
-	return p1_score - p2_score;		// returns the utility of the leaf node
-									// based on difference in scores
+	b->set_minimax_value(p1_score - p2_score);	// Based on the difference in scores
+	return b;
 }
 
 vector<OthelloBoard*> MinimaxPlayer::succ(OthelloBoard *b, char p_symb)

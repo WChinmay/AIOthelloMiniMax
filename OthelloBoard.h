@@ -104,6 +104,17 @@ public:
      */
     char get_p2_symbol() { return p2_symbol; }
 
+    /**
+     * @return Returns the minimax value
+     * Returns the minimax value
+     */
+    int get_minimax_value() { return minimax_value; }
+
+    /**
+     * Sets the minimax value of this board state
+     */
+    void set_minimax_value(int new_minimax_value) { minimax_value = new_minimax_value; }
+
 private:
 
     /** The symbol for Player 1's pieces */
@@ -111,6 +122,9 @@ private:
 
     /** The symbol for Player 2's pieces */
     char p2_symbol;
+
+    /** The minimax value */
+    int minimax_value;
 
     /**
      * @param col The column of the starting point
