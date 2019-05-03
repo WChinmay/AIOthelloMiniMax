@@ -1,0 +1,723 @@
+
+Player 1 (X) score: 2
+Player 2 (O) score: 2
+
+3:| . . . . 
+2:| . O X . 
+1:| . X O . 
+0:| . . . . 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 3, row = 1
+
+Player 1 (X) score: 4
+Player 2 (O) score: 1
+
+3:| . . . . 
+2:| . O X . 
+1:| . X X X 
+0:| . . . . 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+In get_move
+Chose min in get_move
+Row is: -1
+Col is: -1
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -6
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+Finished computing a min value
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -9
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -8
+Done calculating utility
+Finished computing a min value
+Finished computing a max value
+Finished computing a min value
+LALALALALALLALALALALLALALALLALALALALLALALA. I should go to player move after this. 
+Row is: 0
+Col is: 1
+Selected move: col = 1, row = 0
+
+Player 1 (X) score: 3
+Player 2 (O) score: 3
+
+3:| . . . . 
+2:| . O X . 
+1:| . O X X 
+0:| . O . . 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 0, row = 1
+
+Player 1 (X) score: 5
+Player 2 (O) score: 2
+
+3:| . . . . 
+2:| . O X . 
+1:| X X X X 
+0:| . O . . 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+In get_move
+Chose min in get_move
+Row is: -1
+Col is: -1
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -12
+Done calculating utility
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -12
+Done calculating utility
+Finished computing a min value
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -12
+Done calculating utility
+Finished computing a min value
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -11
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -11
+Done calculating utility
+Finished computing a max value
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -11
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -11
+Done calculating utility
+Finished computing a max value
+Finished computing a min value
+Finished computing a max value
+Finished computing a min value
+LALALALALALLALALALALLALALALLALALALALLALALA. I should go to player move after this. 
+Row is: 0
+Col is: 3
+Selected move: col = 3, row = 0
+
+Player 1 (X) score: 4
+Player 2 (O) score: 4
+
+3:| . . . . 
+2:| . O X . 
+1:| X X O X 
+0:| . O . O 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 2, row = 0
+
+Player 1 (X) score: 6
+Player 2 (O) score: 3
+
+3:| . . . . 
+2:| . O X . 
+1:| X X X X 
+0:| . O X O 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+In get_move
+Chose min in get_move
+Row is: -1
+Col is: -1
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -10
+Done calculating utility
+Finished computing a min value
+Finished computing a max value
+Finished computing a min value
+LALALALALALLALALALALLALALALLALALALALLALALA. I should go to player move after this. 
+Row is: 2
+Col is: 3
+Selected move: col = 3, row = 2
+
+Player 1 (X) score: 3
+Player 2 (O) score: 7
+
+3:| . . . . 
+2:| . O O O 
+1:| X X O O 
+0:| . O X O 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 0, row = 0
+
+Player 1 (X) score: 5
+Player 2 (O) score: 6
+
+3:| . . . . 
+2:| . O O O 
+1:| X X O O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+Can't move
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 3, row = 3
+
+Player 1 (X) score: 7
+Player 2 (O) score: 5
+
+3:| . . . X 
+2:| . O X O 
+1:| X X O O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+In get_move
+Chose min in get_move
+Row is: -1
+Col is: -1
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -1
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: -1
+Done calculating utility
+Finished computing a min value
+LALALALALALLALALALALLALALALLALALALALLALALA. I should go to player move after this. 
+Row is: 3
+Col is: 1
+Selected move: col = 1, row = 3
+
+Player 1 (X) score: 6
+Player 2 (O) score: 7
+
+3:| . O . X 
+2:| . O O O 
+1:| X X O O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 2, row = 3
+
+Player 1 (X) score: 10
+Player 2 (O) score: 4
+
+3:| . O X X 
+2:| . X X O 
+1:| X X X O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+In get_move
+Chose min in get_move
+Row is: -1
+Col is: -1
+computing min value
+Started trying to find successors
+Finished finding successors
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: 1
+Done calculating utility
+computing max value
+Started trying to find successors
+Finished finding successors
+Calculating utilit for leaf node
+Utility value is: 1
+Done calculating utility
+Finished computing a min value
+LALALALALALLALALALALLALALALLALALALALLALALA. I should go to player move after this. 
+Row is: 2
+Col is: 0
+Selected move: col = 0, row = 2
+
+Player 1 (X) score: 8
+Player 2 (O) score: 7
+
+3:| . O X X 
+2:| O O O O 
+1:| X X X O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 1 (X) move:
+Enter col: Enter row: Selected move: col = 0, row = 3
+
+Player 1 (X) score: 12
+Player 2 (O) score: 4
+
+3:| X X X X 
+2:| X X O O 
+1:| X X X O 
+0:| X X X O 
+   ---------
+    0 1 2 3 
+
+Player 2 (O) move:
+Can't move
+Player 1 (X) move:
+Can't move
+Player 1 wins

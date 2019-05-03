@@ -43,10 +43,13 @@ public:
      */
     MinimaxPlayer* clone();
 
-	OthelloBoard* utility(OthelloBoard *b);
+	// OthelloBoard* utility(OthelloBoard *b);
+	int utility(OthelloBoard *b);
 	std::vector<OthelloBoard*> succ(OthelloBoard *b, char p_symb);
-	OthelloBoard* maxValue(OthelloBoard *b, int &row, int &col, char p_symb);
-	OthelloBoard* minValue(OthelloBoard *b, int &row, int &col, char p_symb);
+	// OthelloBoard* maxValue(OthelloBoard *b, int &row, int &col, char p_symb);
+	// OthelloBoard* minValue(OthelloBoard *b, int &row, int &col, char p_symb);
+	int maxValue(OthelloBoard *b, int &row, int &col, char p_symb);
+	int minValue(OthelloBoard *b, int &row, int &col, char p_symb);
 
 private:
 
