@@ -17,6 +17,14 @@
  */
 class OthelloBoard : public Board {
 public:
+    
+    // Variables, not good way to make these public.
+    // TODO: make private
+    /** The preserved column */
+    int pcol;
+
+    /** The preserved row */
+    int prow;
 
 	/**
 	 * @cols The number of columns in the game of Othello
